@@ -22,8 +22,13 @@ Python Add-on
 
     Example
 	DS_Array.py     Read 30 sensors in less than one second using Tkinter
-
+	
+	
     Help inside module
 	python
 	help('DS18B20')
-
+    Usage
+    	import DS18B20 as ds
+	DS_DPIN=27
+	DS_ID=28-000488404883
+	ds.read(True,DS_DPIN,DS_ID)
