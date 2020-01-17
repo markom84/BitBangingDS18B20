@@ -27,6 +27,8 @@ Python Add-on
     Help inside module
 	python
 	help('DS18B20')
+	
+	
     Usage
     	import DS18B20 as ds
 	DS_DPIN=27
