@@ -31,8 +31,7 @@ Python Add-on
 	
     Usage
     	import DS18B20 as ds
-		DS_DPIN=27
-
+	DS_DPIN=27
 	DS_DPIN=27
 	DS_ID=28-000488404883
 	ds.read(True,DS_DPIN,DS_ID)
